@@ -14,6 +14,7 @@ export type Education = {
   startDate: string;
   endDate: string;
   description: string;
+  gpa: number;
 };
 
 export type Service = {
@@ -27,6 +28,7 @@ export type Work = {
   title: string;
   category: string;
   thumbnailUrl: string;
+  customUrl?: string;
   description?: string;
   images: string[];
   previewUrl: string;

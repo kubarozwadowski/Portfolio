@@ -24,7 +24,7 @@ const getBackgroundClass = (index: number) => {
 const ServiceSection = () => {
   return (
     <>
-      <SectionTitle>Services</SectionTitle>
+      <SectionTitle> </SectionTitle>
       <div className="mt-10 grid gap-8 md:grid-cols-3">
         {services.map((service, index) => (
           <div

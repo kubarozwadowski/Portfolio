@@ -10,10 +10,10 @@ const work = () => {
       <PageTitle
         breadcrumb={[
           { label: 'Home', path: '/' },
-          { label: 'Works', path: '' },
+          // { label: 'Works', path: '' },
         ]}
       >
-        Works
+        My Projects
       </PageTitle>
 
       <div className="container py-10">

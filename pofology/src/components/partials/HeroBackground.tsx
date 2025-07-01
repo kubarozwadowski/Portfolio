@@ -11,6 +11,8 @@ import {
   FiStar,
   FiTriangle,
 } from 'react-icons/fi';
+import { GiDumpling } from "react-icons/gi";
+import { FaSnowboarding } from "react-icons/fa";
 
 const HeroBackground = () => {
   return (
@@ -33,6 +35,14 @@ const HeroBackground = () => {
         className="absolute bottom-20  left-16 hidden animate-bounce text-amber-500 sm:inline-block md:left-40"
       />
       <FiHexagon size={30} className="absolute top-96 left-1/4 hidden animate-spin text-purple-500 sm:inline-block" />
+      <GiDumpling 
+        size={35} 
+        className="absolute top-1/2 left-3/4 hidden animate-bounce text-orange-400 sm:inline-block" 
+      />
+      <FaSnowboarding
+        size={40} 
+        className="absolute top-1/4 left-1/5 hidden animate-snowboard text-blue-500 sm:inline-block" 
+      />
       <ul className={styles.circles}>
         <li className="bg-primary-300"></li>
         <li className="bg-purple-300"></li>

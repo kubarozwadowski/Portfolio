@@ -6,6 +6,8 @@ import { useRouter } from 'next/router';
 import { Fragment, useState } from 'react';
 import { BsMoonStars, BsSun } from 'react-icons/bs';
 import { HiMenuAlt3 } from 'react-icons/hi';
+import { AiFillHome } from 'react-icons/ai';
+import { FaHome } from "react-icons/fa";
 
 const Menu = () => {
   const router = useRouter();
@@ -14,28 +16,36 @@ const Menu = () => {
   return (
     <header className="header text-gray-700 dark:text-gray-200">
       <div className="mx-auto flex h-16 max-w-7xl items-center px-4 md:px-6">
-        <Link href="/">
-          <a className="text-3xl  font-bold">
-            <span>Pofology</span>
-            <span className="text-primary-500">.</span>
-          </a>
-        </Link>
         <ul className="ml-auto hidden items-center md:flex">
           <li>
             <Link href="/works">
               <a
                 className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
+                  'inline-flex items-center px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
                   {
                     'text-primary-500': router.asPath == '/works',
                   }
                 )}
               >
-                Works
+                Projects
               </a>
             </Link>
           </li>
           <li>
+            <Link href="/">
+              <a
+                className={classNames(
+                  'inline-flex items-center px-4 font-semibold  transition-colors duration-300 hover:text-primary-600 hover:underline',
+                  {
+                    'text-primary-500': router.asPath == '/',
+                  }
+                )}
+              >
+                <AiFillHome size={20} className="flex items-center" />
+              </a>
+            </Link>
+          </li>
+          {/* <li>
             <Link href="/blog">
               <a
                 className={classNames(
@@ -48,8 +58,8 @@ const Menu = () => {
                 Blog
               </a>
             </Link>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <Link href="/contact">
               <a
                 className={classNames(
@@ -62,7 +72,7 @@ const Menu = () => {
                 Contact
               </a>
             </Link>
-          </li>
+          </li> */}
         </ul>
         <button
           type="button"
@@ -127,7 +137,7 @@ const Menu = () => {
                 <div className="border-b px-2 pb-4 dark:border-gray-700">
                   <Link href="/">
                     <a className="text-3xl  font-bold">
-                      <span>Pofology</span>
+                      <span>Kuba</span>
                       <span className="text-primary-500">.</span>
                     </a>
                   </Link>
@@ -140,10 +150,20 @@ const Menu = () => {
                         { 'text-primary-500': router.asPath == '/works' }
                       )}
                     >
-                      Works
+                      Projects
                     </a>
                   </Link>
-                  <Link href="/blog">
+                  <Link href="/">
+                    <a
+                      className={classNames(
+                        'group flex items-center px-2 py-2 text-base font-medium transition-colors duration-150 hover:text-primary-600',
+                        { 'text-primary-500': router.asPath == '/' }
+                      )}
+                    >
+                      <AiFillHome size={20} className="flex items-center" />
+                    </a>
+                  </Link>
+                  {/* <Link href="/blog">
                     <a
                       className={classNames(
                         { 'text-primary-500': router.asPath == '/blog' },
@@ -152,8 +172,8 @@ const Menu = () => {
                     >
                       Blog
                     </a>
-                  </Link>
-                  <Link href="/contact">
+                  </Link> */}
+                  {/* <Link href="/contact">
                     <a
                       className={classNames(
                         { 'text-primary-500': router.asPath == '/contact' },
@@ -162,7 +182,7 @@ const Menu = () => {
                     >
                       Contact
                     </a>
-                  </Link>
+                  </Link> */}
                 </nav>
               </div>
             </div>

@@ -13,42 +13,55 @@ const AboutSection = () => {
         {/* Bio */}
         <div className="">
           <p className="text-justify">
-            Hi, I am Md Mostafizur Rahman, I am a fullstack developer. I work from Dhaka, Bangladesh. I have rich
-            experience in building, designing & customizing website, web apps, mobile apps etc.
+            Hey, I'm Kuba. I am a Computer Science student at Boston University, particularly interested in backend engineering and data science. 
+            I am passionate about building efficient solutions to real-world problems and exploring the intersection of technology and the business world. 
+            In my free time, I enjoy hiking with my dog, weightlifting, snowboarding, and reading books - particularly about sociology, business, and Russian literature; or anything that catches my eye!
           </p>
-          <Button className="mt-5">Download CV</Button>
+          {/* <Button className="mt-5">Download CV</Button> */}
         </div>
 
         {/* Skills */}
-        <div className="grid grid-cols-2 gap-x-6 gap-y-4">
-          <div className="">
-            <div className="mb-3 flex justify-between">
-              <h6 className="font-semibold">Backend</h6>
-              <p>85%</p>
-            </div>
-            <ProgressBar color="blue" progress={85} />
-          </div>
-          <div className="">
-            <div className="mb-3 flex justify-between">
-              <h6 className="font-semibold">Frontend</h6>
-              <p>95%</p>
-            </div>
-            <ProgressBar color="amber" progress={95} />
+        <div className="grid grid-cols-2 gap-x-6 gap-y-4 text-sm sm:text-base">
+          <div>
+            <h6 className="mb-2 font-semibold text-white">Languages</h6>
+            <ul className="list-disc list-inside text-gray-300">
+              <li>Python</li>
+              <li>Java</li>
+              <li>Golang</li>
+              <li>JavaScript</li>
+              <li>HTML / CSS</li>
+            </ul>
           </div>
 
-          <div className="">
-            <div className="mb-3 flex justify-between">
-              <h6 className="font-semibold">Mobile App</h6>
-              <p>75%</p>
-            </div>
-            <ProgressBar color="rose" progress={75} />
+          <div>
+            <h6 className="mb-2 font-semibold text-white">Frameworks & Libraries</h6>
+            <ul className="list-disc list-inside text-gray-300">
+              <li>FastAPI</li>
+              <li>React.js</li>
+              <li>Vue.js</li>
+              <li>Pandas</li>
+              <li>Tailwind CSS</li>
+            </ul>
           </div>
-          <div className="">
-            <div className="mb-3 flex justify-between">
-              <h6 className="font-semibold">UI/UX</h6>
-              <p>90%</p>
-            </div>
-            <ProgressBar color="green" progress={80} />
+
+          <div>
+            <h6 className="mb-2 font-semibold text-white">Tools & Technologies</h6>
+            <ul className="list-disc list-inside text-gray-300">
+              <li>Git</li>
+              <li>Docker</li>
+              <li>MongoDB</li>
+              <li>Supabase</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6 className="mb-2 font-semibold text-white">Concepts & Environments</h6>
+            <ul className="list-disc list-inside text-gray-300">
+              <li>Full-Stack Development</li>
+              <li>REST APIs</li>
+              <li>Data Analysis</li>
+              <li>Agile Workflows</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -60,8 +73,8 @@ const AboutSection = () => {
             <HiOutlineFire size={50} />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">20+</h2>
-            <p className="mt-1">Projects Completed</p>
+            <h2 className="text-3xl font-bold">245 lb</h2>
+            <p className="mt-1">Bench press PR</p>
           </div>
         </div>
         <div className="flex">
@@ -69,8 +82,8 @@ const AboutSection = () => {
             <FiCoffee size={50} />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">30+</h2>
-            <p className="mt-1">Cup of Coffee</p>
+            <h2 className="text-3xl font-bold">3</h2>
+            <p className="mt-1">Internships completed</p>
           </div>
         </div>
 
@@ -79,8 +92,8 @@ const AboutSection = () => {
             <HiOutlineUsers size={50} />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">15+</h2>
-            <p className="mt-1">Satisfied clients</p>
+            <h2 className="text-3xl font-bold">14+</h2>
+            <p className="mt-1">Countries visited</p>
           </div>
         </div>
 
@@ -89,8 +102,8 @@ const AboutSection = () => {
             <HiOutlineChartBar size={50} />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">5+</h2>
-            <p className="mt-1">Years of experience</p>
+            <h2 className="text-3xl font-bold">∞</h2>
+            <p className="mt-1">Curiosity</p>
           </div>
         </div>
       </div>
