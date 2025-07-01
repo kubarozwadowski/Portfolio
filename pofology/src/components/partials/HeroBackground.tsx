@@ -11,8 +11,8 @@ import {
   FiStar,
   FiTriangle,
 } from 'react-icons/fi';
-import { GiDumpling } from "react-icons/gi";
-import { FaSnowboarding } from "react-icons/fa";
+import { GiDumpling } from 'react-icons/gi';
+import { FaSnowboarding } from 'react-icons/fa';
 
 const HeroBackground = () => {
   return (

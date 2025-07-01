@@ -30,22 +30,22 @@ const HeroSection = () => {
         <div className="mt-4  flex gap-5">
           <Link href="https://www.linkedin.com/in/kuba-rozwadowski-a96499235/">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
-                target="_blank"
-                rel="noopener noreferrer">
+              target="_blank"
+              rel="noopener noreferrer">
               <FiLinkedin size={25} />
             </a>
           </Link>
           <Link href="https://github.com/kubarozwadowski">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
-                target="_blank"
-                rel="noopener noreferrer">
+              target="_blank"
+              rel="noopener noreferrer">
               <FiGithub size={25} />
             </a>
           </Link>
           <Link href="https://www.goodreads.com/user/show/138883521-kuba-rozwadowski">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500"
-                target="_blank"
-                rel="noopener noreferrer">
+              target="_blank"
+              rel="noopener noreferrer">
               <FaGoodreadsG size={25} />
             </a>
           </Link>

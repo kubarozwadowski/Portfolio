@@ -7,7 +7,7 @@ import { Fragment, useState } from 'react';
 import { BsMoonStars, BsSun } from 'react-icons/bs';
 import { HiMenuAlt3 } from 'react-icons/hi';
 import { AiFillHome } from 'react-icons/ai';
-import { FaHome } from "react-icons/fa";
+import { FaHome } from 'react-icons/fa';
 
 const Menu = () => {
   const router = useRouter();
