@@ -23,8 +23,8 @@ const AboutSection = () => {
         {/* Skills */}
         <div className="grid grid-cols-2 gap-x-6 gap-y-4 text-sm sm:text-base">
           <div>
-            <h6 className="mb-2 font-semibold text-white">Languages</h6>
-            <ul className="list-disc list-inside text-gray-300">
+            <h6 className="mb-2 font-semibold">Languages</h6>
+            <ul className="list-disc list-inside">
               <li>Python</li>
               <li>Java</li>
               <li>Golang</li>
@@ -34,8 +34,8 @@ const AboutSection = () => {
           </div>
 
           <div>
-            <h6 className="mb-2 font-semibold text-white">Frameworks & Libraries</h6>
-            <ul className="list-disc list-inside text-gray-300">
+            <h6 className="mb-2 font-semibold">Frameworks & Libraries</h6>
+            <ul className="list-disc list-inside">
               <li>FastAPI</li>
               <li>React.js</li>
               <li>Vue.js</li>
@@ -45,8 +45,8 @@ const AboutSection = () => {
           </div>
 
           <div>
-            <h6 className="mb-2 font-semibold text-white">Tools & Technologies</h6>
-            <ul className="list-disc list-inside text-gray-300">
+            <h6 className="mb-2 font-semibold">Tools & Technologies</h6>
+            <ul className="list-disc list-inside">
               <li>Git</li>
               <li>Docker</li>
               <li>MongoDB</li>
@@ -55,8 +55,8 @@ const AboutSection = () => {
           </div>
 
           <div>
-            <h6 className="mb-2 font-semibold text-white">Concepts & Environments</h6>
-            <ul className="list-disc list-inside text-gray-300">
+            <h6 className="mb-2 font-semibold">Concepts & Environments</h6>
+            <ul className="list-disc list-inside">
               <li>Full-Stack Development</li>
               <li>REST APIs</li>
               <li>Data Analysis</li>
