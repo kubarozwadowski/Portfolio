@@ -6,7 +6,7 @@ export const experiences: Experience[] = [
     company: 'CoolGreenPower',
     startDate: 'May 2025',
     endDate: 'Aug 2025',
-    description: 'In progress.',
+    description: 'Developed Python and JavaScript code to automate NYSERDA-compliant HVAC energy reports using Pandas, processing IoT data at 10-second intervals from Azure Blob Storage and emailing results to users with Nodemailerto eliminate manual analysis, reducing company validation costs by 15%. Built a React frontend and Express.js backend to validate Coolnomix installations by analyzing sensor readings with CSV parsing and statistical logic, enabling real-time verification across 7 installation categories.',
   },
 
   {
